@@ -116,7 +116,8 @@
       "API_SECRET": "@nightscout_api_secret",
       "MONGO_CONNECTION": "@nightscout_mongo_url",
       "DISPLAY_UNITS": "mg/dl",
-      "BASE_URL": "https://t1.n8.io"
+      "BASE_URL": "https://t1.n8.io",
+      "TIME_FORMAT": "24"
     }
   }
 }
