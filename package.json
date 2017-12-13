@@ -118,9 +118,14 @@
     "alias": "t1.n8.io",
     "env": {
       "API_SECRET": "@nightscout_api_secret",
-      "MONGO_CONNECTION": "@nightscout_mongo_url",
-      "DISPLAY_UNITS": "mg/dl",
       "BASE_URL": "https://t1.n8.io",
+      "BRIDGE_USER_NAME": "@nightscout_bridge_username",
+      "BRIDGE_PASSWORD": "@nightscout_bridge_password",
+      "CUSTOM_TITLE": "Nate's Nightscout",
+      "DISPLAY_UNITS": "mg/dl",
+      "ENABLE": "bridge",
+      "MONGO_CONNECTION": "@nightscout_mongo_url",
+      "THEME": "colors",
       "TIME_FORMAT": "24"
     }
   }
